@@ -49,3 +49,9 @@ p{
     margin-top: 30px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
+.nxt:active{
+    background-color: #a28ed2;
+}
+.nxt:hover{
+    background-color: #a28ed2;
+}
