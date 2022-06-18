@@ -3,19 +3,19 @@
 }
 body{
     text-align: center;
-    padding: 50px 20px;
+    padding: 40px 15px;
     height: 80vh;
 }
 h1{
     color: #3194f4;
-    font-size: 28px;
+    font-size: 24px;
 }
 section{
     display: flex;
     overflow-x: hidden;
 }
 .question{
-    min-width: 90vw;
+    min-width: 100vw;
 }
 p{
     font-size: 20px;
@@ -26,13 +26,16 @@ p{
     font-size: 14px;
     border-radius: 20px;
     padding: 10px 50px;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
     color: white;
     border: none;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 .options>button:active{
-    background-color: #4184ee;
+    background-color: #ef7493;
+}
+.options>button:hover{
+    background-color: #ef7493;
 }
 .nxt{
     background-color: #ef7493;
