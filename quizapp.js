@@ -1,6 +1,8 @@
-// for( let index = 0; index < 10; index++){
-//     let optionButton = document.getElementsByTagName("button");
-//     optionButton[index].addEventListener("click", function priceHover(){
-//         optionButton.style.backgroundcolor = "red";
-//     })
-// }
+var nextButtons = document.getElementsByClassName('nxt');
+var questionBox = document.getElementsByClassName('question')
+
+for (let i = 0; i < nextButtons.length; i++) {
+    nextButtons[i].addEventListener("click", function scrollRight(){  
+            questionBox[i].style.marginLeft = "-98vw";
+    })
+}
