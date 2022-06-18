@@ -34,10 +34,10 @@ p{
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 .options>button:active{
-    background-color: #ef7493;
+    background-color: #a28ed2;
 }
 .options>button:hover{
-    background-color: #ef7493;
+    background-color: #a28ed2;
 }
 .nxt{
     background-color: #ef7493;
