@@ -3,19 +3,21 @@
 }
 body{
     text-align: center;
-    padding: 40px 15px;
+    padding-top: 40px;
     height: 80vh;
 }
 h1{
     color: #3194f4;
     font-size: 24px;
+    padding: 0px 20px;
 }
 section{
     display: flex;
     overflow-x: hidden;
 }
 .question{
-    min-width: 100vw;
+    min-width: 98vw;
+
 }
 p{
     font-size: 20px;
