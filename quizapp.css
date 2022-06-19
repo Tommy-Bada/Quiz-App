@@ -15,7 +15,7 @@ section{
     text-align: center;
     padding: 10px 20px;
     transition: all 0.4s ease-in;
-    min-width: 98vw;
+    min-width: 89vw;
     
 }
 h1{
@@ -43,7 +43,7 @@ h2{
     background-color: #a28ed2;
 }
 #question-box{
-    min-width: 98vw;
+    min-width: 100vw;
 }
 p{
     font-size: 20px;
@@ -52,12 +52,12 @@ p{
 }
 
 
-
+/*
 .question{
-    min-width: 98vw;
+    min-width: 96vw;
     transition: all 0.4s ease-in;
 }
-/*
+
 .options{
     display: flex;
     flex-direction: column;
