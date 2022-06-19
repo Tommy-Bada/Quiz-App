@@ -16,5 +16,5 @@
     var startButton = document.getElementById("start-button")
         startButton.addEventListener("click", function scrollRight(){  
             let introPage = document.getElementById("intro")
-            introPage.style.marginLeft = "-90vw";
+            introPage.style.marginLeft = "-100vw";
         })

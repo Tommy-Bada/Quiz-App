@@ -5,17 +5,15 @@ body{
     text-align: center;
     padding-top: 40px;
     padding-bottom: 20px;
-    margin:0;
-}
-section{
     display: flex;
     overflow-x: hidden;
+    margin: 0;
 }
 #intro{
     text-align: center;
     padding: 10px 20px;
     transition: all 0.4s ease-in;
-    min-width: 90vw;
+    min-width: 98vw;
     
 }
 h1{
@@ -43,8 +41,7 @@ h2{
     background-color: #a28ed2;
 }
 #question-box{
-    text-align: center;
-    min-width: 90vw;
+    min-width: 98vw;
 }
 p{
     font-size: 20px;
@@ -54,10 +51,11 @@ p{
 
 
 
-/*.question{
-    min-width: 90vw;
+.question{
+    min-width: 98vw;
     transition: all 0.4s ease-in;
 }
+/*
 .options{
     display: flex;
     flex-direction: column;
