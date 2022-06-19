@@ -5,9 +5,11 @@ body{
     text-align: center;
     padding-top: 40px;
     padding-bottom: 20px;
+    margin: 0;
+}
+section{
     display: flex;
     overflow-x: hidden;
-    margin: 0;
 }
 #intro{
     text-align: center;
