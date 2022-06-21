@@ -104,3 +104,7 @@ p{
     color: #ef7493;
     font-size: 24px;
 }
+#score-text{
+    width:88vw;
+    padding-left:20px;
+}
