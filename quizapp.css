@@ -10,7 +10,7 @@ body{
 section{
     display: flex;
     overflow-x: hidden;
-    transition: all 0.4s ease;
+    transition: all 0.5s ease;
 }
 #intro{
     text-align: center;
@@ -102,5 +102,5 @@ p{
 }
 #score{
     color: #ef7493;
-    font-size: 20px;
+    font-size: 24px;
 }
