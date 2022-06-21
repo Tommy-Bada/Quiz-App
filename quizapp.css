@@ -10,13 +10,13 @@ body{
 section{
     display: flex;
     overflow-x: hidden;
-    transition: all 0.8s ease;
+    transition: all 0.4s ease;
 }
 #intro{
     text-align: center;
     padding: 10px 20px;
     transition: all 0.4s ease-in;
-    min-width: 93vw;
+    min-width: 90vw;
     
 }
 h1{
