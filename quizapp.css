@@ -10,12 +10,13 @@ body{
 section{
     display: flex;
     overflow-x: hidden;
+    transition: all 0.8s ease;
 }
 #intro{
     text-align: center;
     padding: 10px 20px;
     transition: all 0.4s ease-in;
-    min-width: 89vw;
+    min-width: 93vw;
     
 }
 h1{
@@ -50,11 +51,30 @@ p{
     color: #3194f4;
     text-align: center;
 }
-
-
-/*
+.options{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.options>button{
+    max-width: fit-content;
+    background-color: #3194f4;
+    font-size: 14px;
+    border-radius: 20px;
+    padding: 10px 50px;
+    margin-bottom: 10px;
+    color: white;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.options>button:active{
+    background-color: #a28ed2;
+}
+.options>button:hover{
+    background-color: #a28ed2;
+}
 .question{
-    min-width: 96vw;
+    min-width: 100vw;
     transition: all 0.4s ease-in;
 }
 
@@ -73,7 +93,6 @@ p{
     color: white;
     border: none;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    transition: background-color 0.6s ease-out;
 }
 .options>button:active{
     background-color: #a28ed2;
@@ -81,21 +100,7 @@ p{
 .options>button:hover{
     background-color: #a28ed2;
 }
-.nxt{
-    background-color: #ef7493;
-    color: white;
-    border: none;
-    padding: 10px 50px;
-    border-radius: 20px;
-    font-size: 14px;
-    margin-top: 30px;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    
+#score{
+    color: #ef7493;
+    font-size: 20px;
 }
-.nxt:active{
-    background-color: #a28ed2;
-}
-.nxt:hover{
-    background-color: #a28ed2;
-}
-*/

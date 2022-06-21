@@ -9,7 +9,7 @@
 </head>
 <body>
     <section>
-        <div class="question" id="intro">
+        <div id="intro">
             <h1>How well do you know Tomiwa?</h1>
             <h2>Prep Info</h2>
             <p>
@@ -18,22 +18,15 @@
             </p>
             <button id="start-button">Start</button>
         </div>
-        <div id="question-box">
-            <p>
-                Calm Down, I still dey cook.
-            </p>
-        </div>
-        <!--
-       <div class="question">
-            <p>Favorite Meal?</p>
+        <div class="question">
+            <p id="question-text">Favorite Meal?</p>
             <div class="options">
                 <button class="option">Spaghetti</button>
                 <button class="option">Potato Porridge</button>
-                <button class="option">Bread & Beans</button>
+                <button class="option" onclick="correctOption()">Bread & Beans</button>
                 <button class="option">Amala</button>
                 <button class="option">Beans & Plantain</button>
             </div>
-            <button class="nxt">Next</button>
         </div>
         <div class="question">
             <p>Favorite MAT Course?</p>
@@ -41,21 +34,19 @@
                 <button class="option">MAT 121</button>
                 <button class="option">MAT 312</button>
                 <button class="option">MAT 241</button>
-                <button class="option">MAT 353</button>
+                <button class="option" onclick="correctOption()">MAT 353</button>
                 <button class="option">None</button>
             </div>
-            <button class="nxt">Next</button>
         </div>
         <div class="question">
             <p>Favorite Cereal?</p>
             <div class="options">
                 <button class="option">Froot Loops</button>
-                <button class="option">Coco Pops</button>
+                <button class="option" onclick="correctOption()">Coco Pops</button>
                 <button class="option">Cassava Smoothie</button>
                 <button class="option">Corn Flakes</button>
                 <button class="option">Golden Morn</button>
             </div>
-            <button class="nxt">Next</button>
         </div>
         <div class="question">
             <p>Favorite Song of all time?</p>
@@ -63,58 +54,49 @@
                 <button class="option">23 by Burna</button>
                 <button class="option">Juice Back by Nasty C</button>
                 <button class="option">360 by Asa</button>
-                <button class="option">Alien by Rema</button>
+                <button class="option" onclick="correctOption()">Alien by Rema</button>
                 <button class="option">Lucid Dreams by Juice WRLD</button>
             </div>
-            <button class="nxt">Next</button>
         </div>
         <div class="question">
             <p>Favorite Television Series of all time?</p>
             <div class="options">
                 <button class="option">Teen Wolf</button>
                 <button class="option">Game of Thrones</button>
-                <button class="option">The Office</button>
+                <button class="option" onclick="correctOption()">The Office</button>
                 <button class="option">IRIS</button>
                 <button class="option">Hwarang</button>
             </div>
-            <button class="nxt">Next</button>
         </div>
         <div class="question">
             <p>Name of his "LOML"?</p>
-            <div><input></div>
-            <button class="nxt">Next</button>
+            <div class="options">
+                <button class="option">Esther</button>
+                <button class="option">Priscillia</button>
+                <button class="option">Oluwaseyifunmi</button>
+                <button class="option">Kosi</button>
+                <button class="option">Adaeze</button>
+            </div>
         </div>
         <div class="question">
             <p>Name of his immediate ex?</p>
             <div class="options">
                 <button class="option">Esther</button>
-                <button class="option">Amaka</button>
-                <button class="option">Fatima</button>
-                <button class="option"> Ayotunde</button>
                 <button class="option">Priscillia</button>
                 <button class="option">Oluwaseyifunmi</button>
                 <button class="option">Kosi</button>
                 <button class="option">Adaeze</button>
-                <button class="option">Chidera</button>
-                <button class="option">Qudrat</button>
             </div>
-            <button class="nxt">Next</button>
         </div>
         <div class="question">
             <p>Name of his previous ex?</p>
             <div class="options">
                 <button class="option">Esther</button>
-                <button class="option">Amaka</button>
-                <button class="option">Fatima</button>
-                <button class="option">Ayotunde</button>
                 <button class="option">Priscillia</button>
                 <button class="option">Oluwaseyifunmi</button>
                 <button class="option">Kosi</button>
                 <button class="option">Adaeze</button>
-                <button class="option">Chidera</button>
-                <button class="option">Qudrat</button>
             </div>
-            <button class="nxt">Next</button>
         </div>
         <div class="question">
             <p>Favorite Artist?</p>
@@ -122,23 +104,23 @@
                 <button class="option">Burna</button>
                 <button class="option">Tyler, the Creator</button>
                 <button class="option">Asa</button>
-                <button class="option">Rema</button>
+                <button class="option" onclick="correctOption()">Rema</button>
                 <button class="option">Daniel Ceaser</button>
             </div>
-            <button class="nxt">Next</button>
         </div>
         <div class="question">
             <p>Favorite Color?</p>
             <div class="options">
-                <button class="option">Red</button>
+                <button class="option" onclick="correctOption()">Red</button>
                 <button class="option">Blue</button>
                 <button class="option">Purple</button>
                 <button class="option">Pink</button>
                 <button class="option">Black</button>
             </div>
-            <button>Submit</button>
         </div>
-    -->
+        <div class="question">
+            <p id="score">Wait for your score</p>
+        </div>
     </section>
     <script src="quizapp.js" > </script>
 </body>
